@@ -318,7 +318,7 @@ footer>p {
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 100vh;
+    height: 90vh;
 }
 
 #contactmain form {
@@ -407,6 +407,7 @@ footer>p {
     width: 100%;
     padding: 1rem;
     font-size: 2rem;
+    color: black;
 }
 
 label>input,
@@ -421,6 +422,10 @@ label>input:focus,
 label>textarea:focus {
     outline: 2px solid #323A45;
     border-radius: 5px;
+}
+
+input:required {
+    border: 3px solid red;
 }
 
 
@@ -508,3 +513,43 @@ label>textarea:focus {
         flex-direction: row;
     }
 }
+
+
+/* ======================= */
+
+
+
+/* header nav ol {
+    position: fixed;
+    background-color: green;
+    top: 0;
+    left: 0;
+    right: -100%;
+    bottom: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    transition: all 0.5s linear;
+}
+
+header nav ol a {
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+header nav ol a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 700px) {
+    header nav a {
+        display: none;
+    }
+
+    header div {
+        display: flex;
+    }
+} */
