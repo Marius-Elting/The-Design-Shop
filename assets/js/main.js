@@ -22,7 +22,7 @@ function submitContact(event) {
             console.log(msg);
             console.log(check.checked);
 
-            if (window.confirm('We have recieved the following Message!')) {
+            if (window.confirm('We have recieved the following Message! ' + msg)) {
                 window.location = "../../index.html";
             }
         }
